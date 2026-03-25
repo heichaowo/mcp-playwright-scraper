@@ -1,0 +1,21 @@
+{
+  "name": "mcp-playwright-scraper",
+  "version": "1.0.0",
+  "description": "Lightweight Playwright-based web scraper that converts any webpage to clean Markdown",
+  "type": "module",
+  "main": "scrape.mjs",
+  "scripts": {
+    "scrape": "node scrape.mjs"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.5.0",
+    "jsdom": "^25.0.0",
+    "playwright": "^1.48.0",
+    "turndown": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["playwright", "scraper", "markdown", "web", "readability"],
+  "license": "MIT"
+}
